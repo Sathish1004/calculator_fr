@@ -1,0 +1,55 @@
+  body {
+  background: linear-gradient(45deg, #84ce31, #ba24e0, #1288b4, #23d5ab);
+  background-size: 200% 150%;
+  animation: gradient 15s ease infinite;
+  min-height: 100vh;
+}
+
+.calculator{
+    width: 30vw;
+    height: 70vh;
+    border:1px solid rgb(201, 198, 198);
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    gap: 5px;
+    padding: 30px;
+     background: transparent;
+}
+.calculator>.form-group{
+    display: flex;
+    justify-content: space-between;
+     gap:5px;
+    
+}
+.calculator>.form-group>button{
+    width: 25%;
+   font-size: 15px;;
+   border: none;
+   border-radius: 5px;
+
+}
+.calculator>.form-group>button:hover{
+    background-color: rgb(173, 171, 171);
+}
+.calculator>.form-group>input{
+    width: 100% ;
+    font-size: 40px;
+    border: 1px solid rgb(81, 80, 80);
+    text-align: right;
+    outline: none;
+    border-radius: 5px;
+    padding-right:10px;
+
+}
+.calculator>.form-group.evaluate{
+    color: rgb(230, 9, 234);
+    background-color: rgb(59, 59, 219);
+    font-size:30px;
+}
+.calculator>.form-group>.evaluate:hover{
+        background-color: rgb(73,73,177);
+    
+
+}
